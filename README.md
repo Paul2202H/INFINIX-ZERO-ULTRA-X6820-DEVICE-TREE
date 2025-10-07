@@ -15,7 +15,7 @@ Battery | 4500 mAh, non-removable
 Display | 1080 x 2400 pixels,6.8 inches, 60/120hz
 
 # picture
-![infinixzeroultra](https://m.gsmarena.com/infinix_zero_ultra-pictures-11922.php)
+![infinixzeroultra](https://fdn2.gsmarena.com/vv/pics/infinix/infinix-zero-ultra-1.jpg)
 
 # Checks
 Blocking checks
