@@ -200,7 +200,7 @@ TARGET_USES_LOGD := true
 TW_NEVER_UNMOUNT_SYSTEM := true
 
 # Version
-TW_DEVICE_VERSION := VALE | X6820 >a12+<
+TW_DEVICE_VERSION := VALE | X6820 >A12+<
 
 # prevent always stuck on recovery when rebooting to system
 TW_NO_FASTBOOT_BOOT := true
