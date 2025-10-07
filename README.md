@@ -1,6 +1,6 @@
 # twrp device tree for INFINIX ZERO ULTRA ( X6820 )
 
-INFINIX ZERO ULTRA ( X6820 ) is a mid-range smartphone from Tecno
+INFINIX ZERO ULTRA ( X6820 )
 
 # Device SPecifications
 Basic   | Spec Sheet
