@@ -19,7 +19,7 @@ $(call inherit-product, vendor/pn/config/common.mk)
 $(call inherit-product, device/infinix/X6820/device.mk)
 
 PRODUCT_DEVICE := X6820
-PRODUCT_NAME := twrp_X6820
+PRODUCT_NAME := pb_X6820
 PRODUCT_BRAND := INFINIX
 PRODUCT_MODEL := INFINIX X6820
 PRODUCT_MANUFACTURER := infinix
