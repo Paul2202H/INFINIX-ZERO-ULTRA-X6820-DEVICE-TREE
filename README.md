@@ -17,7 +17,7 @@ Battery | 5000 mAh, non-removable
 Display | 1080 x 2460 pixels,6.78 inches, 60/90/120hz
 
 # picture
-![poba5pro](https://github.com/user-attachments/assets/0bfd51aa-7b85-4d65-afe7-602bfc4cb12e)
+![infinixzeroultra]([https://github.com/user-attachments/assets/0bfd51aa-7b85-4d65-afe7-602bfc4cb12e](https://share.google/Rn4B8wycWzxolkwjq))
 
 # Checks
 Blocking checks
