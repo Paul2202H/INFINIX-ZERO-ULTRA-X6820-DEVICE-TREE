@@ -1,20 +1,18 @@
-# twrp device tree for Tecno Pova 5 pro ( LH8n )
+# twrp device tree for INFINIX ZERO ULTRA ( X6820 )
 
-Tecno Pova 5 Pro ( _LH8n_ ) is a mid-range smartphone from Tecno
-
-Released on 2023, August 01
+INFINIX ZERO ULTRA ( X6820 ) is a mid-range smartphone from Tecno
 
 # Device SPecifications
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (2x2.4 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)
-Chipset | MediaTek Dimensity 6080 (MT6833)
-GPU     | Mali-G57 MC2
-Memory  | 4/8 GB RAM
-Shipped Android Version | 13 (HIOS 13.5) ~ upgradable to hios 14 ~
-Storage | 128/256 GB (UFS)
-Battery | 5000 mAh, non-removable
-Display | 1080 x 2460 pixels,6.78 inches, 60/90/120hz
+CPU     | Octa-core (2x2.5 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)
+Chipset | MediaTek Dimensity 930 (MT6877)
+GPU     | Mali-G68 MC4
+Memory  | 8 GB RAM
+Shipped Android Version | 12
+Storage | 256 GB (UFS)
+Battery | 4500 mAh, non-removable
+Display | 1080 x 2400 pixels,6.8 inches, 60/120hz
 
 # picture
 ![infinixzeroultra](https://m.gsmarena.com/infinix_zero_ultra-pictures-11922.php)
@@ -51,13 +49,13 @@ Minor checks
 - [✔] input devices via USB (USB-OTG) - keyboard and mouse
 - [✔] USB mass storage export
 - [✔] set brightness
-- [✔] vibrate
+- [x] vibrate
 - [✔] screenshot
 - [✔] partition SD card
 - [✔] Fastbootd
 
 # Clone
-    git clone https://github.com/naden01/tecno_LH8n.git -b android-12.1 device/tecno/LH8n
+    git clone https://github.com/Paul2202H/INFINIX-ZERO-ULTRA-X6820-DEVICE-TREE.git -b Fox-12.1 device/infinix/X6820
 
 # Build
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_LH8n-eng; mka vendorbootimage
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_X6820-eng; mka bootimage
