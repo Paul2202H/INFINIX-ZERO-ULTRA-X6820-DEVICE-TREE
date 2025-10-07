@@ -16,7 +16,7 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/Paul2202H/TWRP-TREE-FOR-INFINIX-ZERO-ULTRA.git'
+        default: 'https://github.com/Paul2202H/INFINIX-ZERO-ULTRA-X6820-DEVICE-TREE.git'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
