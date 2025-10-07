@@ -12,14 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit some common twrp stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common PBRP stuff.
+$(call inherit-product, vendor/pn/config/common.mk)
 
 # Inherit from INFINIX-X6820 device
 $(call inherit-product, device/infinix/X6820/device.mk)
 
 PRODUCT_DEVICE := X6820
-PRODUCT_NAME := twrp_X6820
+PRODUCT_NAME := pb_X6820
 PRODUCT_BRAND := INFINIX
 PRODUCT_MODEL := INFINIX X6820
 PRODUCT_MANUFACTURER := infinix
