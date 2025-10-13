@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit some common PBRP stuff.
-$(call inherit-product, vendor/pn/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from INFINIX-X6820 device
 $(call inherit-product, device/infinix/X6820/device.mk)
