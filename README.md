@@ -1,4 +1,4 @@
-# twrp device tree for INFINIX ZERO ULTRA ( X6820 )
+# CUSTOM RECOVERY DEVICE TREE FOR INFINIX ZERO ULTRA ( X6820 )
 
 # Device SPecifications
 Basic   | Spec Sheet
