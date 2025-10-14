@@ -197,8 +197,6 @@ TARGET_USES_LOGD := true
 # Prevent TWRP from unmounting /system
 TW_NEVER_UNMOUNT_SYSTEM := true
 
-# Version
-TW_DEVICE_VERSION := VALE | X6820 >A12+<
 
 # prevent always stuck on recovery when rebooting to system
 TW_NO_FASTBOOT_BOOT := true
@@ -212,9 +210,9 @@ TW_CUSTOM_CPU_POS := "300"
 TW_CUSTOM_CLOCK_POS := "70"
 TW_CUSTOM_BATTERY_POS := "790"
 
-# Change default OrangeFox backup
-FOX_DEFAULT_BACKUP_PATH := /data/media/0/Fox
-
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_X6820
 TARGET_RECOVERY_DEVICE_MODULES := libinit_X6820
+
+# Version
+TW_DEVICE_VERSION := VALE | X6820 >A12+<
