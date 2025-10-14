@@ -14,13 +14,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    vendor \
-    system \
     boot \
-    vbmeta_system \
+    dtbo \
+    gz \
+    lk \
+    logo \
+    md1img \
+    preloader \
     product \
+    scp \
+    spmfw \
+    sspm \
+    system \
+    system_ext \
+    tee \
+    vbmeta \
+    vbmeta_system \
     vbmeta_vendor \
-    system_ext
+    vendor
     
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
