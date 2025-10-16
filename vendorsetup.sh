@@ -38,7 +38,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
     # Version / Maintainer infos.
 	export OF_MAINTAINER="VALE"
-	export FOX_VERSION="R11.3"
 	export FOX_BUILD_TYPE="Unofficial-Stable"
 
     # Device Information.
