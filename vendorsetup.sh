@@ -1,37 +1,27 @@
 #!/bin/bash
-
 export OF_DISABLE_OTA_MENU=1
 export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-export OF_MAINTAINER="rama982"
+export OF_MAINTAINER="Vale"
+export OF_MAINTAINER_AVATAR="device/infinix/X6820/author.png"
 export FOX_VARIANT="A12+"
 export OF_FLASHLIGHT_ENABLE=0
-
-#export FOX_USE_BASH_SHELL=1
-#export FOX_USE_NANO_EDITOR=1
-#export FOX_USE_TAR_BINARY=1
-#export FOX_USE_SED_BINARY=1
-#export FOX_USE_XZ_UTILS=1
-#export FOX_ASH_IS_BASH=1
-#export OF_ENABLE_LPTOOLS=1
+export OF_ENABLE_LPTOOLS=1
 #export FOX_DELETE_MAGISK_ADDON=1
-#export FOX_DELETE_AROMAFM=1
-#export FOX_ENABLE_APP_MANAGER=1
-#export OF_SUPPORT_VBMETA_AVB2_PATCHING=1
-
-export OF_USE_MAGISKBOOT=1
-export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
-export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
-
-export FOX_USE_DATA_RECOVERY_FOR_SETTINGS=1
-
+export FOX_DELETE_AROMAFM=1
+export FOX_ENABLE_APP_MANAGER=0
+export OF_SUPPORT_VBMETA_AVB2_PATCHING=1
+#export FOX_USE_DATA_RECOVERY_FOR_SETTINGS=1
 export OF_LOOP_DEVICE_ERRORS_TO_LOG=1
+export FOX_DRASTIC_SIZE_REDUCTION=1
 
-export OF_USE_LZ4_COMPRESSION=true
+# Magisk Boot Patch.
+export OF_USE_MAGISKBOOT=1 
+export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 
-export OF_SCREEN_H=2400
+export OF_SCREEN_H=2460
 export OF_STATUS_H=95
 export OF_STATUS_INDENT_LEFT=48
 export OF_STATUS_INDENT_RIGHT=48
@@ -52,4 +42,4 @@ fi
 export LC_ALL="C"
 
 # Clone to fix build on minimal manifest
-git clone https://android.googlesource.com/platform/external/gflags/ -b android-12.1.0_r4 external/gflagsexport OF_CLOCK_POS=1
+git clone https://android.googlesource.com/platform/external/gflags/ -b android-12.1.0_r4 external/gflags
