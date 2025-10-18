@@ -157,21 +157,11 @@ TARGET_SCREEN_HEIGHT  := 2400
 TARGET_SCREEN_DENSITY := 480
 TW_NO_SCREEN_BLANK    := true
 
-# TWRP Configuration
-TW_THEME := portrait_hdpi
-TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_TOOLBOX := true
-
-# mke2fs
-TARGET_USES_MKE2FS := true
-
-# framerate
-TW_FRAMERATE := 120
 
 # brightness
 TW_BRIGHTNESS_PATH    := "/sys/class/leds/lcd-backlight/brightness"
-TW_MAX_BRIGHTNESS     := 2047
-TW_DEFAULT_BRIGHTNESS := 1200
+TW_DEFAULT_BRIGHTNESS := 2047
+TW_MAX_BRIGHTNESS := 4095
 
 # EXclude feature for more space boot ramdisk
 TW_EXLUDE_TZDATA := true
@@ -196,17 +186,32 @@ TW_INCLUDE_RESETPROP    := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-# Prevent TWRP from unmounting /system
-TW_NEVER_UNMOUNT_SYSTEM := true
+# TWRP Configs
+TW_EXTRA_LANGUAGES := false
+TW_FRAMERATE := 120
+TW_THEME := portrait_hdpi
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+TARGET_USES_MKE2FS := true
+TW_NO_FLASH_CURRENT_TWRP := true
+TW_DEVICE_VERSION := VALE | X6820
 
-# Version
-TW_DEVICE_VERSION := VALE | X6820 >a12+<
+# no recovery partition
+TW_HAS_NO_RECOVERY_PARTITION := true
 
-# prevent always stuck on recovery when rebooting to system
-TW_NO_FASTBOOT_BOOT := true
+# Custom CPU Temp Path
+TW_CUSTOM_CPU_TEMP_PATH := "/sys/class/thermal/thermal_zone4/temp"
 
-# FastbootD
-TW_INCLUDE_FASTBOOTD := true
+# StatusBar
+TW_STATUS_ICONS_ALIGN := center
+TW_CUSTOM_CPU_POS     := "300"
+TW_CUSTOM_CLOCK_POS   := "70"
+TW_CUSTOM_BATTERY_POS := "790"
+
+# PBRP flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_PATCH_AVB2 := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
 
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
