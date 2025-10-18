@@ -197,8 +197,6 @@ TARGET_USES_LOGD := true
 # Prevent TWRP from unmounting /system
 TW_NEVER_UNMOUNT_SYSTEM := true
 
-BOARD_RAMDISK_USE_LZMA := true
-
 # prevent always stuck on recovery when rebooting to system
 TW_NO_FASTBOOT_BOOT := true
 
