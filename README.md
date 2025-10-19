@@ -4,7 +4,7 @@
 Basic   | Spec Sheet
 -------:|:-------------------------
 CPU     | Octa-core (2x2.5 GHz Cortex-A78 & 6x2.0 GHz Cortex-A55)
-Chipset | MediaTek Dimensity 930 (MT6877)
+Chipset | MediaTek Dimensity 920 (MT6877)
 GPU     | Mali-G68 MC4
 Memory  | 8 GB RAM
 Shipped Android Version | 12
